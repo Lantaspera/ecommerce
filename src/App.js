@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './COMPONENTS/home/Home';
 import Login from './COMPONENTS/login/Login';
 import Register from './COMPONENTS/register/Register';
+import Product from './COMPONENTS/product/Product';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       {/* <Header/>
       <Home/> 
       <Login/> */}
-      <Register/>
+      {/* <Register/> */}
+      <Product/>
       </div>
     </Router>
     
