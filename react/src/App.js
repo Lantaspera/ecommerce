@@ -6,6 +6,7 @@ import Login from './COMPONENTS/login/Login';
 import Register from './COMPONENTS/register/Register';
 
 
+
 function App() {
   return (
     <Router>
@@ -22,3 +23,4 @@ function App() {
 }
 
 export default App;
+
